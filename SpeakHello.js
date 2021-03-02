@@ -14,10 +14,10 @@ var speakWord = "Hello";
 // STEP 4: Rewrite the 'speak' function such that it is attached to the
 // helloSpeaker object instead of being a standalone function.
 // See Lecture 52, part 2
-helloSpeaker.speak = function (name) {
+helloSpeaker.speak = function (names) {
   if (names.startsWith('J') || names.startsWith('j')) {
   	} else {
-  		console.log(speakWord + " " + name);
+  		console.log(speakWord + " " + names);
   }
 }
 
