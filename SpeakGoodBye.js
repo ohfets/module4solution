@@ -19,7 +19,7 @@ var speakWord = "Good Bye";
 // See Lecture 52, part 2
 byeSpeaker.speak = function (names) {
   if (names.startsWith('J') || names.startsWith('j')) {
-  	console.log(speakWord + " " + name);
+  	console.log(speakWord + " " + names);
   }
 }
 
